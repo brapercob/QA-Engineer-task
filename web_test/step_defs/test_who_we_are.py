@@ -1,9 +1,9 @@
 
 from pytest_bdd import scenarios, then, parsers
 
-from web_test.features.lib.pages.base import BasePage
+from web_test.pages.base import BasePage
 
-scenarios('../bcnc_who_we_are.feature')
+scenarios('../features/bcnc_who_we_are.feature')
 
 
 # Check paragraphs are not empty

@@ -6,8 +6,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
-from pytest_bdd import given, then, parsers
-from web_test.features.lib.pages.base import BasePage
+from pytest_bdd import given, parsers
+from web_test.pages.base import BasePage
 
 
 # Parser for the console browser argument
